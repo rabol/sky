@@ -2,6 +2,15 @@
 
 All notable changes to `sky` will be documented in this file
 
+## v3.4.8 - 2024-03-30
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/lara-zeus/sky/pull/200
+* fix url in nav render by @atmonshi in https://github.com/lara-zeus/sky/pull/201
+
+**Full Changelog**: https://github.com/lara-zeus/sky/compare/v3.4.7...v3.4.8
+
 ## v3.4.7 - 2024-03-07
 
 ### What's Changed
@@ -148,6 +157,7 @@ in your panel provider you can hide any resource from the side nav
 
 
 
+
 ```
 for more check out the docs:
 https://larazeus.com/docs/sky/v3/getting-started/configuration
@@ -245,6 +255,7 @@ Since [tiptap editor](https://github.com/awcodes/filament-tiptap-editor) still i
 
 
 
+
 ```
 #### What's Changed
 
@@ -308,11 +319,13 @@ Make sure to add this to your config:
 
 
 
+
 ```
 You can copy that class and create your own parser, too, then add it to the array, and Sky will loop them all.
 
 ```I
 Of course, it will be visible only if you install Sky with Bolt :)
+
 
 
 
@@ -363,7 +376,6 @@ Of course, it will be visible only if you install Sky with Bolt :)
 - Default featured image from config by @atmonshi in https://github.com/lara-zeus/sky/pull/73
 - Allow preview post for author by @atmonshi in https://github.com/lara-zeus/sky/pull/74
 - update Zeus core by @atmonshi in https://github.com/lara-zeus/sky/pull/75
-
 **Full Changelog**: https://github.com/lara-zeus/sky/compare/2.4.1...2.4.2
 
 ## 2.4.1 - 2023-04-10
