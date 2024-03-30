@@ -48,9 +48,10 @@ class InstallCommand extends Command
         $this->call('vendor:publish', ['--tag' => 'zeus-config']);
         $this->call('vendor:publish', ['--tag' => 'zeus-assets']);
 
-        $this->info('running migrations...');
-
-        $this->call('migrate');
+        if ($this->confirm('Do you want to run the migration now?', true)) {
+            $this->info('running migrations...');
+            $this->call('migrate');
+        }
 
         $this->output->success('Zeus Sky has been Installed successfully, consider ⭐️ the package in filament site :)');
     }
