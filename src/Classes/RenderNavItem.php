@@ -44,7 +44,7 @@ class RenderNavItem
         } else {
             return '<a class="' . $class . '"
                     target="' . ($item['data']['target'] ?? '_self') . '"
-                    href="' . $item['data']['url'] . '"
+                    href="' . optional($item['data'])['url'] . '"
                 >' .
                 $item['label'] .
                 '</a>';
