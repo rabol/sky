@@ -2,6 +2,14 @@
 
 All notable changes to `sky` will be documented in this file
 
+## v3.4.9 - 2024-03-31
+
+### What's Changed
+
+* Update InstallCommand.php by @atmonshi in https://github.com/lara-zeus/sky/pull/202
+
+**Full Changelog**: https://github.com/lara-zeus/sky/compare/v3.4.8...v3.4.9
+
 ## v3.4.8 - 2024-03-30
 
 ### What's Changed
@@ -158,6 +166,7 @@ in your panel provider you can hide any resource from the side nav
 
 
 
+
 ```
 for more check out the docs:
 https://larazeus.com/docs/sky/v3/getting-started/configuration
@@ -256,6 +265,7 @@ Since [tiptap editor](https://github.com/awcodes/filament-tiptap-editor) still i
 
 
 
+
 ```
 #### What's Changed
 
@@ -320,11 +330,13 @@ Make sure to add this to your config:
 
 
 
+
 ```
 You can copy that class and create your own parser, too, then add it to the array, and Sky will loop them all.
 
 ```I
 Of course, it will be visible only if you install Sky with Bolt :)
+
 
 
 
@@ -377,7 +389,6 @@ Of course, it will be visible only if you install Sky with Bolt :)
 - Allow preview post for author by @atmonshi in https://github.com/lara-zeus/sky/pull/74
 - update Zeus core by @atmonshi in https://github.com/lara-zeus/sky/pull/75
 **Full Changelog**: https://github.com/lara-zeus/sky/compare/2.4.1...2.4.2
-
 ## 2.4.1 - 2023-04-10
 
 ### What's Changed
