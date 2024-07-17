@@ -23,7 +23,7 @@ class ListLibrary extends ListRecords
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix().'library'))
+                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'library'))
                 ->openUrlInNewTab(),
             LocaleSwitcher::make(),
         ];

@@ -23,7 +23,7 @@ class ListFaqs extends ListRecords
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix().'faq'))
+                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'faq'))
                 ->openUrlInNewTab(),
             LocaleSwitcher::make(),
         ];
