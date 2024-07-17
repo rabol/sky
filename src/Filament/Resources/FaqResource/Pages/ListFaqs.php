@@ -7,6 +7,7 @@ use Filament\Actions\CreateAction;
 use Filament\Actions\LocaleSwitcher;
 use Filament\Resources\Pages\ListRecords;
 use LaraZeus\Sky\Filament\Resources\FaqResource;
+use LaraZeus\Sky\SkyPlugin;
 
 class ListFaqs extends ListRecords
 {
@@ -22,7 +23,7 @@ class ListFaqs extends ListRecords
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (): string => route('faq'))
+                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'faq'))
                 ->openUrlInNewTab(),
             LocaleSwitcher::make(),
         ];

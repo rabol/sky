@@ -195,7 +195,7 @@ class LibraryResource extends SkyResource
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (Library $record): string => route('library.item', ['slug' => $record->slug]))
+                ->url(fn (Library $record): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'library.item', ['slug' => $record->slug]))
                 ->openUrlInNewTab(),
             DeleteAction::make('delete')
                 ->label(__('Delete')),
@@ -204,7 +204,7 @@ class LibraryResource extends SkyResource
         if (class_exists(\LaraZeus\Helen\HelenServiceProvider::class)) {
             //@phpstan-ignore-next-line
             $action[] = \LaraZeus\Helen\Actions\ShortUrlAction::make('get-link')
-                ->distUrl(fn (Library $record): string => route('library.item', ['slug' => $record->slug]));
+                ->distUrl(fn (Library $record): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'library.item', ['slug' => $record->slug]));
         }
 
         return [ActionGroup::make($action)];

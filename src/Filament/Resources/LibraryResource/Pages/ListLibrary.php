@@ -7,6 +7,7 @@ use Filament\Actions\CreateAction;
 use Filament\Actions\LocaleSwitcher;
 use Filament\Resources\Pages\ListRecords;
 use LaraZeus\Sky\Filament\Resources\LibraryResource;
+use LaraZeus\Sky\SkyPlugin;
 
 class ListLibrary extends ListRecords
 {
@@ -22,7 +23,7 @@ class ListLibrary extends ListRecords
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (): string => route('library'))
+                ->url(fn (): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'library'))
                 ->openUrlInNewTab(),
             LocaleSwitcher::make(),
         ];
