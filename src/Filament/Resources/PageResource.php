@@ -229,7 +229,7 @@ class PageResource extends SkyResource
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
-                ->url(fn (Post $record): string => route('page', ['slug' => $record]))
+                ->url(fn (Post $record): string => route(SkyPlugin::get()->getRouteNamePrefix().'page', ['slug' => $record]))
                 ->openUrlInNewTab(),
             DeleteAction::make('delete'),
             ForceDeleteAction::make(),
@@ -239,7 +239,7 @@ class PageResource extends SkyResource
         if (class_exists(\LaraZeus\Helen\HelenServiceProvider::class)) {
             //@phpstan-ignore-next-line
             $action[] = \LaraZeus\Helen\Actions\ShortUrlAction::make('get-link')
-                ->distUrl(fn (Post $record): string => route('page', ['slug' => $record]));
+                ->distUrl(fn (Post $record): string => route(SkyPlugin::get()->getRouteNamePrefix().'page', ['slug' => $record]));
         }
 
         return [ActionGroup::make($action)];
