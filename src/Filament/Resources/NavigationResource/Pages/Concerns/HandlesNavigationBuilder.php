@@ -77,7 +77,11 @@ trait HandlesNavigationBuilder
             Action::make('item')
                 ->mountUsing(function (ComponentContainer $form) {
                     if (! $this->mountedItem) {
-                        return;
+                        $form->fill([
+                            'label' => '',
+                            'type' => 'external-link',
+                            'data' => [],
+                        ]);
                     }
 
                     $form->fill($this->mountedItemData);
@@ -114,6 +118,9 @@ trait HandlesNavigationBuilder
                         ->whenTruthy('type')
                         ->schema(function (Get $get, Component $component) {
                             $type = $get('type');
+                            if (! filled($type)) {
+                                return [];
+                            }
 
                             return $component->evaluate(SkyPlugin::get()->getItemTypes()[$type]['fields']) ?? [];
                         }),
