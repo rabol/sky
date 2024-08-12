@@ -30,24 +30,24 @@ Sky simple CMS. it includes posts, pages, tags, and categories and more, with a 
 
 * **CMS:** blog, pages with tags and categorises and navigations
 
-![](https://larazeus.com/images/screenshots/sky/admin-1.png)
-![](https://larazeus.com/images/screenshots/sky/admin-2.png)
-![](https://larazeus.com/images/screenshots/sky/admin-3.png)
-![](https://larazeus.com/images/screenshots/sky/admin-4.png)
+![](https://larazeus.com/images/screenshots/sky/admin-1.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-2.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-3.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-4.webp)
 
 * **Addons:** you can manage addons from the config file, it's including Libraries and FAQ's
 
-![](https://larazeus.com/images/screenshots/sky/admin-5.png)
-![](https://larazeus.com/images/screenshots/sky/admin-6.png)
-![](https://larazeus.com/images/screenshots/sky/admin-7.png)
-![](https://larazeus.com/images/screenshots/sky/admin-8.png)
-![](https://larazeus.com/images/screenshots/sky/admin-9.png)
+![](https://larazeus.com/images/screenshots/sky/admin-5.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-6.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-7.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-8.webp)
+![](https://larazeus.com/images/screenshots/sky/admin-9.webp)
 
 * **Frontend:** get up and running fast with pre-build frontend for all the components and highly customizable.
 
-![](https://larazeus.com/images/screenshots/sky/frontend-1.png)
-![](https://larazeus.com/images/screenshots/sky/frontend-2.png)
-![](https://larazeus.com/images/screenshots/sky/frontend-3.png)
+![](https://larazeus.com/images/screenshots/sky/frontend-1.webp)
+![](https://larazeus.com/images/screenshots/sky/frontend-2.webp)
+![](https://larazeus.com/images/screenshots/sky/frontend-3.webp)
 
 ## More Details
 **✨ to learn more about Sky the form builder, please visit:**

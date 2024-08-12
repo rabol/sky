@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-sky.png?v=2" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-sky.webp?v=2" /></a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ Lara Zeus Sky is simple CMS for your website. It includes posts, pages, tags, an
 ## Support Filament
 
 <a href="https://github.com/sponsors/danharrin">
-<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.png">
+<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.webp">
 </a>
 
 ## features
@@ -58,8 +58,8 @@ visit our website to get the full documentation: https://larazeus.com/sky
 
 ## Quick start
 
-[![starter-kit](https://larazeus.com/images/starter-kit-mini.png?v=2)](https://github.com/lara-zeus/zeus)
-[![artemis](https://larazeus.com/images/artemis-mini.png?v=2)](https://github.com/lara-zeus/artemis)
+[![starter-kit](https://larazeus.com/images/starter-kit-mini.webp?v=2)](https://github.com/lara-zeus/zeus)
+[![artemis](https://larazeus.com/images/artemis-mini.webp?v=2)](https://github.com/lara-zeus/artemis)
 
 ## Changelog
 
