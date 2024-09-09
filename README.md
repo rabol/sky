@@ -67,7 +67,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Support
 available support channels:
-* join our channel in discord [Discord](https://discord.com/channels/883083792112300104/965924351289491496)
+* Join our channel on [Discord](https://discord.com/channels/883083792112300104/1282749051200081950)
 * open an issue on [GitHub](https://github.com/lara-zeus/sky/issues)
 * Email us using the [contact center](https://larazeus.com/contact-us)
 
@@ -81,7 +81,7 @@ If you discover any security related issues, please email info@larazeus.com inst
 
 ## Credits
 
--   [php coder](https://github.com/atmonshi)
+-   [Lara Zeus (Ash)](https://github.com/atmonshi)
 -   [All Contributors](../../contributors)
 
 ## License

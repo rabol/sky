@@ -6,7 +6,7 @@ weight: 1
 ## Introduction
 @zeus sky, is a simple CMS for your website. it includes posts, pages, tags, and categories, with a frontend scaffolding.
 
-**[Demo](https://demo.larazeus.com) · [Github](https://github.com/lara-zeus/sky) · [Discord](https://discord.com/channels/883083792112300104/965924351289491496)**
+**[Demo](https://demo.larazeus.com) · [Github](https://github.com/lara-zeus/sky) · [Discord](https://discord.com/channels/883083792112300104/1282749051200081950)**
 
 ## features
 - 🔥 built with [TALL stack](https://tallstack.dev/)
@@ -41,6 +41,6 @@ and more on the way:
 
 ## Support
 available support channels:
-* join our channel in discord [Discord](https://discord.com/channels/883083792112300104/965924351289491496)
+* Join our channel on [Discord](https://discord.com/channels/883083792112300104/1282749051200081950)
 * open an issue on [GitHub](https://github.com/lara-zeus/sky/issues)
 * email us using the [contact center](https://larazeus.com/contact-us)

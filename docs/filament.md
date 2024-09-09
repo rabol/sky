@@ -52,7 +52,7 @@ Sky simple CMS. it includes posts, pages, tags, and categories and more, with a 
 ## More Details
 **✨ to learn more about Sky the form builder, please visit:**
 
-- [Discord](https://discord.com/channels/883083792112300104/965924351289491496)
+- [Discord](https://discord.com/channels/883083792112300104/1282749051200081950)
 - [Docs](https://larazeus.com/docs/sky)
 - [Github](https://github.com/lara-zeus/sky)
 - [Demo](https://demo.larazeus.com)
