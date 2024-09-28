@@ -271,6 +271,7 @@ class PostResource extends SkyResource
                 ->color('warning')
                 ->icon('heroicon-o-arrow-top-right-on-square')
                 ->label(__('Open'))
+                ->visible(! config('zeus-sky.headless'))
                 ->url(fn (Post $record): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'post', ['slug' => $record]))
                 ->openUrlInNewTab(),
             DeleteAction::make('delete'),
@@ -278,7 +279,10 @@ class PostResource extends SkyResource
             RestoreAction::make(),
         ];
 
-        if (class_exists(\LaraZeus\Helen\HelenServiceProvider::class)) {
+        if (
+            class_exists(\LaraZeus\Helen\HelenServiceProvider::class)
+            && ! config('zeus-sky.headless')
+        ) {
             //@phpstan-ignore-next-line
             $action[] = \LaraZeus\Helen\Actions\ShortUrlAction::make('get-link')
                 ->distUrl(fn (Post $record): string => route(SkyPlugin::get()->getRouteNamePrefix() . 'post', ['slug' => $record]));
