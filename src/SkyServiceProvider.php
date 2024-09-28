@@ -30,8 +30,11 @@ class SkyServiceProvider extends PackageServiceProvider
             ->hasTranslations()
             ->hasConfigFile()
             ->hasCommands($this->getCommands())
-            ->hasViews('zeus')
-            ->hasRoute('web');
+            ->hasViews('zeus');
+
+        if (! config('zeus-sky.headless')) {
+            $package->hasRoute('web');
+        }
     }
 
     /**

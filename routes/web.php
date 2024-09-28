@@ -9,9 +9,6 @@ use LaraZeus\Sky\Livewire\Page;
 use LaraZeus\Sky\Livewire\Post;
 use LaraZeus\Sky\Livewire\Posts;
 use LaraZeus\Sky\Livewire\Tags;
-use LaraZeus\Sky\SkyPlugin;
-
-$filament = app('filament');
 
 Route::domain(config('zeus-sky.domain'))
     ->middleware(config('zeus-sky.middleware'))

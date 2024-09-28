@@ -39,8 +39,7 @@ class InstallCommand extends Command
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => 'Spatie\MediaLibrary\MediaLibraryServiceProvider',
-            '--tag' => 'migrations',
+            '--tag' => 'medialibrary-migrations',
         ]);
 
         $this->info('publishing zeus assets...');

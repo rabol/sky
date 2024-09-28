@@ -91,6 +91,13 @@ and here is the config content:
 <?php
 
 return [
+    'domain' => null,
+
+    /**
+     * disable all sky frontend routes.
+     */
+    'headless' => false,
+    
     /**
      * set the default path for the blog homepage.
      */
