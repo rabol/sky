@@ -65,7 +65,7 @@ class PageResource extends SkyResource
             Tabs::make('post_tabs')->schema([
                 Tabs\Tab::make(__('Title & Content'))->schema([
                     TextInput::make('title')
-                        ->label(__('Post Title'))
+                        ->label(__('Page Title'))
                         ->required()
                         ->maxLength(255)
                         ->live(onBlur: true)
@@ -86,7 +86,7 @@ class PageResource extends SkyResource
                     Textarea::make('description')
                         ->maxLength(255)
                         ->label(__('Description'))
-                        ->hint(__('Write an excerpt for your post')),
+                        ->hint(__('Write an excerpt for your page')),
 
                     TextInput::make('slug')
                         ->unique(ignorable: fn (?Post $record): ?Post => $record)
